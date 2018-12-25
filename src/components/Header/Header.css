@@ -1,0 +1,67 @@
+.logo-wrapper {
+    display: none;
+}
+
+.logo-title {
+    font-family: Righteous;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.checkbox-toggle{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 36px;
+}
+
+.not-eat,
+.eat {
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.01px;
+    color: #4D4D4D;
+    cursor: pointer;
+}
+input[type="checkbox"] {
+    width: 49px;
+    height: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    box-shadow: inset 0 0 5px rgba(0,0,0, .2);
+    transition: 0.5s;
+    position: relative;
+    cursor: pointer;
+    margin: 0 14px;
+}
+
+input[type="checkbox"]::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #807E7F;
+    top: -11px;
+    left: 0;
+    background: #fff;
+    transition: 0.5s;
+}
+
+input:checked[type="checkbox"]::before {
+    left: 26px;
+    background: #02a9f4;
+    border-color: #02a9f4;
+}
+
+@media (min-width: 768px) {
+    .logo-wrapper {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
