@@ -23,6 +23,7 @@
     letter-spacing: 0.01px;
     color: #4D4D4D;
     cursor: pointer;
+    margin: 0;
 }
 input[type="checkbox"] {
     width: 49px;
@@ -45,14 +46,14 @@ input[type="checkbox"]::before {
     height: 20px;
     border-radius: 50%;
     border: 3px solid #807E7F;
-    top: -11px;
+    top: -9px;
     left: 0;
     background: #fff;
     transition: 0.5s;
 }
 
 input:checked[type="checkbox"]::before {
-    left: 26px;
+    left: 30px;
     background: #02a9f4;
     border-color: #02a9f4;
 }
