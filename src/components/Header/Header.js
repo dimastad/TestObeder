@@ -15,6 +15,7 @@ export default class Header extends Component {
                 <div className="checkbox-toggle">
                     <label htmlFor="choice" className="not-eat">Не ем</label>
                     <input id='choice' type="checkbox" className="choice" defaultChecked />
+                    <label className="checkbox-circle"></label>
                     <label htmlFor='choice' className="eat">Ем</label>
                 </div>
             </header>

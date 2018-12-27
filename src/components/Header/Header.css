@@ -13,6 +13,7 @@
     align-items: center;
     margin: 0 auto;
     min-height: 36px;
+    position: relative;
 }
 
 .not-eat,
@@ -39,21 +40,20 @@ input[type="checkbox"].choice {
     margin: 0 14px;
 }
 
-input[type="checkbox"].choice::before {
-    content: '';
+.checkbox-circle {
     position: absolute;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     border: 3px solid #807E7F;
-    top: -9px;
-    left: 0;
+    top: 8px;
+    left: 70px;
     background: #fff;
-    transition: 0.5s;
+    transition: all 0.5s;
 }
 
-input:checked[type="checkbox"].choice::before {
-    left: 30px;
+input:checked[type="checkbox"].choice+.checkbox-circle {
+    left: 100px;
     background: #02a9f4;
     border-color: #02a9f4;
 }
