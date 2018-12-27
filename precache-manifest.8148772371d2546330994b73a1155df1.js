@@ -8,23 +8,23 @@ self.__precacheManifest = [
     "url": "/TestObeder/static/js/runtime~main.55de0a52.js"
   },
   {
-    "revision": "4c6bbc6ae2240fd81e12",
-    "url": "/TestObeder/static/js/main.4c6bbc6a.chunk.js"
+    "revision": "ff3a1c40475700ff1e4b",
+    "url": "/TestObeder/static/js/main.ff3a1c40.chunk.js"
   },
   {
     "revision": "3f3bbf0a246f82479309",
     "url": "/TestObeder/static/js/1.3f3bbf0a.chunk.js"
   },
   {
-    "revision": "4c6bbc6ae2240fd81e12",
-    "url": "/TestObeder/static/css/main.c682910b.chunk.css"
+    "revision": "ff3a1c40475700ff1e4b",
+    "url": "/TestObeder/static/css/main.3e158275.chunk.css"
   },
   {
     "revision": "3f3bbf0a246f82479309",
     "url": "/TestObeder/static/css/1.440d798f.chunk.css"
   },
   {
-    "revision": "29729b86e17f846fc0464a112798d7f4",
+    "revision": "969dd96650dac537d485f97516422d30",
     "url": "/TestObeder/index.html"
   }
 ];
