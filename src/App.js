@@ -13,8 +13,11 @@ class App extends Component {
       <div className="App">
         <Header />
         <div className="pageWrapper px-3">
-          <Day />
-          <Button buttonText="Сбросить в дефолт!"/>
+          <form className="menuForm">
+            <Day />
+            <Button buttonText="Сбросить в дефолт!"/>
+          </form>
+          
         </div>
         
       </div>
