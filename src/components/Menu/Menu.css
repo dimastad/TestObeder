@@ -40,10 +40,9 @@
 
 /*Begin Стилизованный чекбокс */
 .menu__checkbox_hidden {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-    opacity: 0;
+    width: 0;
+    height: 0;
+    visibility: hidden;
 }
 
 .menu__checkbox_hidden:checked + .menu__checkbox {

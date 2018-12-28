@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Header from "../src/components/Header/Header";
-import Day from "../src/components/Day/Day";
-import Button from "../src/components/Button/Button";
-// import {text} from "../src/components/Button/Button";
+import Today from "../src/components/Today/Today";
+import Tomorrow from "../src/components/Tomorrow/Tomorrow";
 import './App.css';
 import "bootstrap/dist/css/bootstrap.css";
 // import { Navbar, NavItem, Nav, Grid, Row, Col } from "react-bootstrap";
@@ -12,10 +11,10 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <div className="pageWrapper px-3">
+        <div className="pageWrapper px-3 mb-5">
           <form className="menuForm">
-            <Day />
-            <Button buttonText="Сбросить в дефолт!"/>
+            <Today />
+            <Tomorrow />
           </form>
           
         </div>

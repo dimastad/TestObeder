@@ -1,0 +1,12 @@
+.blockTitle {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+
+@media (min-width: 768px) {
+    .menuWrapper {
+        column-count: 2;
+        column-gap: 28px;
+    }
+}

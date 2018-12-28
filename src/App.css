@@ -17,6 +17,7 @@
 
 .App-header {
   position: fixed;
+  z-index: 1;
   width: 100%;
   top: 0;
   background-color: #fff;
@@ -29,4 +30,5 @@
 
 .pageWrapper {
   margin-top: 60px;
+  padding: 0 15px;
 }

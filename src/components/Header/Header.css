@@ -50,6 +50,7 @@ input[type="checkbox"].choice {
     left: 70px;
     background: #fff;
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 input:checked[type="checkbox"].choice+.checkbox-circle {
