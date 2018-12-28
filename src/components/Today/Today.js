@@ -24,6 +24,9 @@ export default class Today extends Component {
                     <Menu menuheader="Мясо" id1="sausages" dish1="Сосиски немецкие с сыром, приправами, чесноком и базиликом" id2="kupaty" dish2="Купаты куптельные" />
                     <Menu addClass="disabled" menuheader="Вторые блюда" id1="karbonara" dish1="Уберкарбонара с соусом из усов шанхайского барса" id2="ravioly" dish2="Пельмени зачотные" />
                     <Button buttonText="Сбросить в дефолт!"/>
+                    <br/>
+                    <br/>
+                    <br/>
                 </div>
             </div>
         )
