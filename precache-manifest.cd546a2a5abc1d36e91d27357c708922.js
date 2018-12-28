@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/TestObeder/static/js/runtime~main.55de0a52.js"
   },
   {
-    "revision": "e0704b31e590a92afe8f",
-    "url": "/TestObeder/static/js/main.e0704b31.chunk.js"
+    "revision": "749d8fbe45a3f52011f2",
+    "url": "/TestObeder/static/js/main.749d8fbe.chunk.js"
   },
   {
     "revision": "ce2171f7167325fc60d5",
     "url": "/TestObeder/static/js/1.ce2171f7.chunk.js"
   },
   {
-    "revision": "e0704b31e590a92afe8f",
+    "revision": "749d8fbe45a3f52011f2",
     "url": "/TestObeder/static/css/main.9fedd230.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/TestObeder/static/css/1.52c38ce1.chunk.css"
   },
   {
-    "revision": "7256842d3e8fca5a4e9d923253513f72",
+    "revision": "f7e872bed2be94a52de38df726851e5b",
     "url": "/TestObeder/index.html"
   }
 ];
