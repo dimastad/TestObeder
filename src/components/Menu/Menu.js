@@ -17,12 +17,12 @@ export default class Menu extends Component {
                 <ul className="menu__list">
                     <li className="menu__list-item">
                         <input id={id1} type="checkbox" className="menu__checkbox_hidden"></input>
-                        <span className="menu__checkbox" ></span>
+                        <label className="menu__checkbox mr-3" htmlFor={id1}></label>
                         <label htmlFor={id1}>{dish1}</label>
                     </li>
                     <li className="menu__list-item">
                         <input id={id2} type="checkbox" className="menu__checkbox_hidden" defaultChecked></input>
-                        <span className="menu__checkbox" ></span>
+                        <label className="menu__checkbox mr-3" htmlFor={id2} ></label>
                         <label htmlFor={id2}>{dish2}</label>
                     </li>
                 </ul>

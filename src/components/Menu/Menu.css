@@ -53,8 +53,8 @@
     content: '';
     display: block;
     position: absolute;
-    top: 1px;
-    left: 6px;
+    top: 2px;
+    left: 7px;
     width: 6px;
     height: 12px;
     border: solid #dadada;
@@ -75,3 +75,9 @@
 }
 /*End Стилизованный чекбокс */
 
+@media (min-width: 768px) {
+    .menu {
+        display: block;
+        page-break-inside: avoid;
+    }
+}

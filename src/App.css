@@ -32,3 +32,8 @@
   margin-top: 60px;
   padding: 0 15px;
 }
+
+.menuForm {
+  max-width: 800px;
+  margin: 0 auto;
+}
