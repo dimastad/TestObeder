@@ -3,6 +3,8 @@ import logo from '../../logo.svg';
 import './Header.css';
 
 export default class Header extends Component {
+
+
     render() {
         return (
             <header className="App-header">
@@ -14,7 +16,7 @@ export default class Header extends Component {
 
                 <div className="checkbox-toggle">
                     <label htmlFor="choice" className="not-eat">Не ем</label>
-                    <input id='choice' type="checkbox" className="choice" defaultChecked />
+                    <input id='choice' type="checkbox" className="choice" />
                     <label className="checkbox-circle" htmlFor='choice'></label>
                     <label htmlFor='choice' className="eat">Ем</label>
                 </div>

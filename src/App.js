@@ -12,10 +12,10 @@ class App extends Component {
       <div className="App">
         <Header />
         <div className="pageWrapper px-3 mb-5">
-          <form className="menuForm">
+          <div className="menuFormWrapper">
             <Today />
             <Tomorrow />
-          </form>
+          </div>
           
         </div>
         

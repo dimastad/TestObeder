@@ -6,9 +6,8 @@
     margin-bottom: 15px;
 }
 
-.menu.disabled {
+.menu:disabled {
     opacity: 0.2;
-    mix-blend-mode: normal;
     user-select: none;
     pointer-events: none;
 }
@@ -26,6 +25,9 @@
 
 .menu__list-item {
     display: flex;
+}
+
+.menu__list-item:not(:last-child) {
     margin-bottom: 10px;
 }
 

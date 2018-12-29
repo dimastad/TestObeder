@@ -12,7 +12,7 @@ export default class Menu extends Component {
             dish2
         } = this.props;
         return (
-            <div className="menu">
+            <fieldset className="menu">
                 <h4>{menuheader}</h4>
                 <ul className="menu__list">
                     <li className="menu__list-item">
@@ -21,12 +21,12 @@ export default class Menu extends Component {
                         <label htmlFor={id1}>{dish1}</label>
                     </li>
                     <li className="menu__list-item">
-                        <input id={id2} type="checkbox" className="menu__checkbox_hidden" defaultChecked></input>
+                        <input id={id2} type="checkbox" className="menu__checkbox_hidden"></input>
                         <label className="menu__checkbox mr-3" htmlFor={id2} ></label>
                         <label htmlFor={id2}>{dish2}</label>
                     </li>
                 </ul>
-            </div>
+            </fieldset>
         )
     }
 }
