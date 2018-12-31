@@ -16,7 +16,7 @@
     position: relative;
 }
 
-.checkbox-toggle:after{
+span.choice{
     content: " ";
     width: 49px;
     height: 3px;
@@ -49,7 +49,7 @@
     border-radius: 50%;
     border: 3px solid #807E7F;
     top: 8px;
-    left:  5px;
+    left: 60px;
     background: #fff;
     transition: all 0.5s;
     cursor: pointer;
@@ -57,7 +57,7 @@
 }
 
 input#choice:checked + .mainWrapper .checkbox-circle {
-    left: 50px;
+    left: 105px;
     background: #02a9f4;
     border-color: #02a9f4;
 }

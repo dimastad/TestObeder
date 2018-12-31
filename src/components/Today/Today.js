@@ -16,12 +16,15 @@ export default class Today extends Component {
         return (
             <div>
                 <h2 className="blockTitle">
-                    {weekDay[date.getDay()]}, {date.getDate()} {month[date.getMonth()]}
+                    {weekDay[date.getDay()]},&nbsp;
+                    <span className="d-md-inline d-none">сегодня,&nbsp;</span>
+                    {date.getDate()}&nbsp;
+                    {month[date.getMonth()]}
                 </h2>
                 <form className="menuWrapper">
-                    <Menu menuheader="Салаты" id1="salad" dish1="Нежный" id2="vinegret" dish2="Винегрет овощной со свежими овощами" />
+                    <Menu menuheader="Салаты" id1="salad" dish1="Нежный" id2="vinegret" dish2="Винегрет овощной со свежими овощами"/>
                     <Menu menuheader="Супы" id1="shee" dish1="Щи щецкие по щщам дающие на серьезных щщах" id2="borsh" dish2="Борщ с галушками" />
-                    <Menu menuheader="Гарниры" id1="paste" dish1="Макарохи" id2="reeze" dish2="Рис-хуис" />
+                    <Menu menuheader="Гарниры" id1="paste" dish1="Макарохи" id2="reeze" dish2="Рис-хуис" lock="disabled" />
                     <Menu menuheader="Мясо" id1="sausages" dish1="Сосиски немецкие с сыром, приправами, чесноком и базиликом" id2="kupaty" dish2="Купаты куптельные" />
                     <Menu addClass="disabled" menuheader="Вторые блюда" id1="karbonara" dish1="Уберкарбонара с соусом из усов шанхайского барса" id2="ravioly" dish2="Пельмени зачотные" />
                     <Button type="reset" buttonText="Сбросить в дефолт!" />
