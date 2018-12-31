@@ -16,17 +16,8 @@
     position: relative;
 }
 
-.not-eat,
-.eat {
-    font-family: Roboto;
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.01px;
-    color: #4D4D4D;
-    cursor: pointer;
-    margin: 0;
-}
-input[type="checkbox"].choice {
+.checkbox-toggle:after{
+    content: " ";
     width: 49px;
     height: 3px;
     -webkit-appearance: none;
@@ -40,6 +31,17 @@ input[type="checkbox"].choice {
     margin: 0 14px;
 }
 
+.not-eat,
+.eat {
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.01px;
+    color: #4D4D4D;
+    cursor: pointer;
+    margin: 0;
+}
+
 .checkbox-circle {
     position: absolute;
     width: 20px;
@@ -47,14 +49,15 @@ input[type="checkbox"].choice {
     border-radius: 50%;
     border: 3px solid #807E7F;
     top: 8px;
-    left: 67px;
+    left:  5px;
     background: #fff;
     transition: all 0.5s;
     cursor: pointer;
+    z-index: 1;
 }
 
-input:checked[type="checkbox"].choice+.checkbox-circle {
-    left: 100px;
+input#choice:checked + .mainWrapper .checkbox-circle {
+    left: 50px;
     background: #02a9f4;
     border-color: #02a9f4;
 }

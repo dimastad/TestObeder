@@ -73,7 +73,7 @@
     margin-right: 10px;
     border: 2px solid #dadada;
     border-radius: 2px;
-    transition: all 0.3s;
+    transition: background-color 0.5s, border 0.3s;
 }
 /*End Стилизованный чекбокс */
 

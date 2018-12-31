@@ -31,6 +31,11 @@
 .pageWrapper {
   margin-top: 60px;
   padding: 0 15px;
+  visibility: collapse;
+}
+
+input#choice:checked + .mainWrapper .pageWrapper {
+  visibility: visible;
 }
 
 .menuFormWrapper {

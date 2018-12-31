@@ -10,15 +10,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <div className="pageWrapper px-3 mb-5">
-          <div className="menuFormWrapper">
-            <Today />
-            <Tomorrow />
+        <input id='choice' type="checkbox" className="choice" />
+        <div className="mainWrapper">
+          <Header />
+          <div className="pageWrapper px-3 mb-5">
+            <div className="menuFormWrapper">
+              <Today />
+              <Tomorrow />
+            </div>
           </div>
-          
         </div>
-        
       </div>
     );
   }
