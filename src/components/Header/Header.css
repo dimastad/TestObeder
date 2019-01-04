@@ -8,6 +8,10 @@
     line-height: 30px;
 }
 
+.logo-title_mobile-form {
+    font-size: 40px;
+}
+
 .checkbox-toggle{
     display: flex;
     align-items: center;
