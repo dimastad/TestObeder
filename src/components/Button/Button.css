@@ -11,5 +11,12 @@
     .btn-primary {
         display: block;
         max-width: 290px;
+        margin: 0 auto;
     } 
+}
+
+@media (min-width: 768px) {
+    .btn-primary {
+        margin: 0;
+    }
 }
