@@ -37,7 +37,6 @@
 
 .menu__list-item label {
     margin: 0;
-    line-height: 1;
 }
 
 /*Begin Стилизованный чекбокс */
@@ -74,6 +73,10 @@
     border: 2px solid #dadada;
     border-radius: 2px;
     transition: background-color 0.5s, border 0.3s;
+}
+
+label.menu__checkbox-label {
+    line-height: 1.4;
 }
 /*End Стилизованный чекбокс */
 

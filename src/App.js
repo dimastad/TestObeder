@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <input id='choice' type="checkbox" className="choice" />
+        <input id='choice' type="checkbox" className="choice" defaultChecked/>
         <div className="mainWrapper">
           <Header />
           <div className="pageWrapper px-3 mb-5">
