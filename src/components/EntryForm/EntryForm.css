@@ -1,0 +1,54 @@
+.EntryFormWrapper {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #f2f2f2;
+    height: 100vh;
+    overflow-y: auto
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 25px;
+    margin: auto;
+}
+
+.form-signin .btn {
+    margin-bottom: 24px;
+    max-width: 140px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.inputForm {
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #979797;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+::placeholder {
+    transform: translateY(0px); 
+    transition: transform 0.3s, font-size 0.3s, opacity 0.3s;
+    opacity: 1;
+}
+
+.inputForm:focus::-webkit-input-placeholder,
+.inputForm:active:focus::-webkit-input-placeholder {
+  font-size:12px;
+  transform:translateY(-20px);
+  opacity: 0;
+}
+
+.entryFormInfo {
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+    color: #898989;
+}

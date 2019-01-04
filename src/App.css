@@ -31,7 +31,12 @@
 .pageWrapper {
   margin-top: 60px;
   padding: 0 15px;
-  visibility: collapse;
+  visibility: hidden;
+}
+
+#choice.choice {
+  width: 0;
+  height: 0;
 }
 
 input#choice:checked + .mainWrapper .pageWrapper {
@@ -41,4 +46,8 @@ input#choice:checked + .mainWrapper .pageWrapper {
 .menuFormWrapper {
   max-width: 800px;
   margin: 0 auto;
+}
+
+.menuFormWrapper > div {
+  padding-top: 20px;
 }
