@@ -1,7 +1,7 @@
 {
-  "main.css": "/TestObeder/static/css/main.3c4bc0ce.chunk.css",
-  "main.js": "/TestObeder/static/js/main.860d0e40.chunk.js",
-  "main.js.map": "/TestObeder/static/js/main.860d0e40.chunk.js.map",
+  "main.css": "/TestObeder/static/css/main.6d0dffbe.chunk.css",
+  "main.js": "/TestObeder/static/js/main.d53cfb9f.chunk.js",
+  "main.js.map": "/TestObeder/static/js/main.d53cfb9f.chunk.js.map",
   "static/css/1.440d798f.chunk.css": "/TestObeder/static/css/1.440d798f.chunk.css",
   "static/js/1.0b75dba2.chunk.js": "/TestObeder/static/js/1.0b75dba2.chunk.js",
   "static/js/1.0b75dba2.chunk.js.map": "/TestObeder/static/js/1.0b75dba2.chunk.js.map",
@@ -9,8 +9,8 @@
   "runtime~main.js.map": "/TestObeder/static/js/runtime~main.55de0a52.js.map",
   "static/css/1.440d798f.chunk.css.map": "/TestObeder/static/css/1.440d798f.chunk.css.map",
   "static/media/logo.svg": "/TestObeder/static/media/logo.f592a9d4.svg",
-  "static/css/main.3c4bc0ce.chunk.css.map": "/TestObeder/static/css/main.3c4bc0ce.chunk.css.map",
+  "static/css/main.6d0dffbe.chunk.css.map": "/TestObeder/static/css/main.6d0dffbe.chunk.css.map",
   "index.html": "/TestObeder/index.html",
-  "precache-manifest.98703fefb7cfba3da2e559c222c8e479.js": "/TestObeder/precache-manifest.98703fefb7cfba3da2e559c222c8e479.js",
+  "precache-manifest.1a2fc198f0b3bae2f0d2c4befe7c3b79.js": "/TestObeder/precache-manifest.1a2fc198f0b3bae2f0d2c4befe7c3b79.js",
   "service-worker.js": "/TestObeder/service-worker.js"
 }
