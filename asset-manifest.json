@@ -1,16 +1,16 @@
 {
-  "main.css": "/TestObeder/static/css/main.4eb64e11.chunk.css",
-  "main.js": "/TestObeder/static/js/main.9d60b7e5.chunk.js",
-  "main.js.map": "/TestObeder/static/js/main.9d60b7e5.chunk.js.map",
+  "main.css": "/TestObeder/static/css/main.08faf12d.chunk.css",
+  "main.js": "/TestObeder/static/js/main.8286b1b5.chunk.js",
+  "main.js.map": "/TestObeder/static/js/main.8286b1b5.chunk.js.map",
   "static/css/1.440d798f.chunk.css": "/TestObeder/static/css/1.440d798f.chunk.css",
   "static/js/1.c3d8e9bb.chunk.js": "/TestObeder/static/js/1.c3d8e9bb.chunk.js",
   "static/js/1.c3d8e9bb.chunk.js.map": "/TestObeder/static/js/1.c3d8e9bb.chunk.js.map",
   "runtime~main.js": "/TestObeder/static/js/runtime~main.55de0a52.js",
   "runtime~main.js.map": "/TestObeder/static/js/runtime~main.55de0a52.js.map",
-  "static/css/1.440d798f.chunk.css.map": "/TestObeder/static/css/1.440d798f.chunk.css.map",
+  "static/css/main.08faf12d.chunk.css.map": "/TestObeder/static/css/main.08faf12d.chunk.css.map",
   "static/media/logo.svg": "/TestObeder/static/media/logo.f592a9d4.svg",
-  "static/css/main.4eb64e11.chunk.css.map": "/TestObeder/static/css/main.4eb64e11.chunk.css.map",
+  "static/css/1.440d798f.chunk.css.map": "/TestObeder/static/css/1.440d798f.chunk.css.map",
   "index.html": "/TestObeder/index.html",
-  "precache-manifest.71e0890c95fd91b2a157321b2b7c1ade.js": "/TestObeder/precache-manifest.71e0890c95fd91b2a157321b2b7c1ade.js",
+  "precache-manifest.569b8dce09984dfd09fae9ef8b19f4b1.js": "/TestObeder/precache-manifest.569b8dce09984dfd09fae9ef8b19f4b1.js",
   "service-worker.js": "/TestObeder/service-worker.js"
 }
