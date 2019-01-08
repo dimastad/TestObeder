@@ -22,7 +22,7 @@
 
 span.choice{
     content: " ";
-    width: 49px;
+    width: 40px;
     height: 3px;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -48,12 +48,12 @@ span.choice{
 
 .checkbox-circle {
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 26px;
+    height: 26px;
     border-radius: 50%;
-    border: 3px solid #807E7F;
-    top: 8px;
-    left: 60px;
+    border: 2px solid #807E7F;
+    top: 5px;
+    left: 63px;
     background: #fff;
     transition: all 0.5s;
     cursor: pointer;
@@ -61,7 +61,7 @@ span.choice{
 }
 
 input#choice:checked + .mainWrapper .checkbox-circle {
-    left: 105px;
+    left: 90px;
     background: #02a9f4;
     border-color: #02a9f4;
 }
