@@ -22,15 +22,16 @@ export default class Today extends Component {
                     {month[date.getMonth()]}
                 </h2>
                 <form className="menuWrapper">
-                    <Menu menuheader="Салаты" id1="salad" dish1="Нежный" id2="vinegret" dish2="Винегрет овощной со свежими овощами"/>
-                    <Menu menuheader="Супы" id1="shee" dish1="Щи щецкие по щщам дающие на серьезных щщах" id2="borsh" dish2="Борщ с галушками" />
-                    <Menu menuheader="Гарниры" id1="paste" dish1="Макарохи" id2="reeze" dish2="Рис-хуис" lock="disabled" />
-                    <Menu menuheader="Мясо" id1="sausages" dish1="Сосиски немецкие с сыром, приправами, чесноком и базиликом" id2="kupaty" dish2="Купаты куптельные" />
-                    <Menu addClass="disabled" menuheader="Вторые блюда" id1="karbonara" dish1="Уберкарбонара с соусом из усов шанхайского барса" id2="ravioly" dish2="Пельмени зачотные" />
-                    <Button type="reset" buttonText="Сбросить в дефолт!" />
-                    <br/>
-                    <br/>
-                    <br/>
+                    <Menu theClass="menu span-3" menuheader="Салаты" id1="salad" dish1="Нежный" id2="vinegret" dish2="Винегрет овощной со свежим горошком"/>
+                    <Menu theClass="menu span-4" menuheader="Мясо"  id1="kupaty" dish1="Купаты куптельные" id2="sausages" dish2="Сосиски немецкие с сыром, приправами, чесноком и базиликом"/>
+                    <Menu theClass="menu span-4" menuheader="Супы" id1="borsh" dish1="Борщ с галушками" id2="shee" dish2="Щи щецкие по щщам дающие на серьезных щщах"  />
+                    <Menu theClass="menu span-3" menuheader="Гарниры" id1="reeze" dish1="Рис-хуис" id2="paste" dish2="Макарохи" />
+                    <Menu theClass="menu span-4" menuheader="Вторые блюда" id1="karbonara" dish1="Уберкарбонара с соусом из усов шанхайского барса" id2="ravioly" dish2="Пельмени зачотные" lock="disabled"/>
+                    <div className="span-4">
+                        <div className="restangle"></div>
+                        <Button type="reset" buttonText="Сбросить в дефолт!" />
+                    </div>
+                    
                 </form>
             </div>
         )

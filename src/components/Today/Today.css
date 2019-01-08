@@ -3,10 +3,25 @@
     font-size: 24px;
 }
 
+.menuWrapper {
+    display: grid;
+    grid-gap: 27px;
+}
+
 
 @media (min-width: 768px) {
     .menuWrapper {
-        column-count: 2;
-        column-gap: 28px;
+        /* column-count: 2;
+        column-gap: 28px; */
+        /* display: grid; */
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-flow: dense;
+        /* grid-gap: 27px; */
+    }
+
+    .restangle {
+        border: 1px solid #979797;
+        margin-bottom: 20px;
+        height: calc(100% - 60px);
     }
 }

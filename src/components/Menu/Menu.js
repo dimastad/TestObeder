@@ -6,6 +6,7 @@ export default class Menu extends Component {
     render() {
         const{
             lock,
+            theClass,
             menuheader,
             id1,
             dish1,
@@ -13,7 +14,7 @@ export default class Menu extends Component {
             dish2
         } = this.props;
         return (
-            <fieldset className="menu" disabled={lock}>
+            <fieldset className={theClass} disabled={lock}>
                 <h4>{menuheader}</h4>
                 <ul className="menu__list">
                     <li className="menu__list-item">
